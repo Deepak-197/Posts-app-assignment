@@ -1,0 +1,21 @@
+.detail-post{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: rgba(121, 121, 121, 0.35) 0px 5px 15px;
+}
+
+.detail-post>h4{
+    color: blue;
+}
+
+@media all and (min-width: 220px) and (max-width: 767px){
+    .detail-post{
+        width: 80%;
+        margin: auto;
+    }
+}

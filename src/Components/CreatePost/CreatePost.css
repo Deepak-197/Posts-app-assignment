@@ -1,0 +1,54 @@
+.create-post{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgb(222, 222, 222);
+    box-shadow: rgba(239, 239, 242, 0.25) 0px 50px 100px -20px, rgba(250, 249, 249, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+}
+
+.create-post p{
+    text-align: left;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.create-post button{
+    margin: 20px auto;
+}
+
+input{
+    width: 90%;
+    height: 35px;
+    margin: auto;
+    text-align: left;
+
+}
+
+textarea{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    text-align: left;
+
+}
+
+label{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+@media all and (min-width: 220px) and (max-width: 767px){
+    .create-post{
+        width: 80%;
+    }
+
+    .create-post p{
+        text-align: left;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}
